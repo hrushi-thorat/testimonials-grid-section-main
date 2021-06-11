@@ -1,0 +1,73 @@
+// mobile first code
+// first attempt
+
+body {
+  padding: 3rem;
+  background: $light-grayish-blue;
+}
+.container {
+  height: 100vh;
+  .card {
+    color: $white;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    margin-bottom: $mb-2;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    h3 {
+      margin-bottom: $mb-1;
+      font-size: 2rem;
+      line-height: 2.3rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.3rem;
+      opacity: 70%;
+      line-height: 1.5;
+      margin-bottom: $mb-1;
+    }
+    .author {
+      margin-bottom: $mb-1;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 0.2rem solid #fff;
+      }
+      .name {
+        margin-left: 1rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+        h4 {
+          margin-bottom: 0.2rem;
+        }
+        h5 {
+          opacity: 50%;
+        }
+      }
+      //   display: flex;
+      //   align-items: center;
+    }
+  }
+  .card-1 {
+    background-color: $moderate-violet;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+  }
+
+  .card-2 {
+    background: $very-dark-grayish-blue;
+    padding-right: 1.6rem;
+  }
+  .card-3 {
+    background-color: $white;
+    color: $very-dark-grayish-blue;
+  }
+  .card-4 {
+    background: $very-dark-blackish-blue;
+  }
+  .card-5 {
+    background: $white;
+    color: $very-dark-grayish-blue;
+  }
+}
